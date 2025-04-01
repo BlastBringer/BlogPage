@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Saravanan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Rahul Saravanan</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#blog">Blog</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Rahul Saravanan</span></h1>
+            <p class="subtitle">Developer | LLM Specialist | RL Engineer | Data Analyst | Rust Developer</p>
+            <p class="description">
+                I create innovative solutions using AI, Reinforcement Learning, Data Analysis, and Microservices. 
+                Specializing in high-performance systems with Rust and scalable microservice architectures.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>LLM-Based Application</h3>
+                    <p>Advanced language model implementation for natural language processing tasks.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>LLM</span>
+                        <span>NLP</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Reinforcement Learning System</h3>
+                    <p>Implementation of RL algorithms for complex decision-making tasks.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>RL</span>
+                        <span>AI</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Data Analysis Platform</h3>
+                    <p>Comprehensive data analysis and visualization platform.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Data Analysis</span>
+                        <span>Visualization</span>
+                    </div>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            <article class="blog-card">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="date">March 15, 2024</span>
+                        <span class="category">AI & ML</span>
+                    </div>
+                    <h3>Understanding Large Language Models</h3>
+                    <p>Deep dive into the architecture and applications of modern LLMs.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-content">
+                    <div class="blog-meta">
+                        <span class="date">March 10, 2024</span>
+                        <span class="category">Reinforcement Learning</span>
+                    </div>
+                    <h3>RL in Real-World Applications</h3>
+                    <p>Exploring practical applications of reinforcement learning.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate developer specializing in AI, Reinforcement Learning, and Data Analysis. 
+                   My expertise includes building and implementing large language models, developing RL systems, 
+                   and creating data-driven solutions for complex problems.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Rust</span>
+                        <span>LLM</span>
+                        <span>Reinforcement Learning</span>
+                        <span>Data Analysis</span>
+                        <span>Machine Learning</span>
+                        <span>Deep Learning</span>
+                        <span>Microservices</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Rahul Saravanan</h3>
+                <p>Developer | LLM Specialist | RL Engineer | Data Analyst | Rust Developer</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="mailto:rahulsaravanan126@gmail.com" target="_blank">Email</a>
+                    <a href="https://github.com/BlastBringer" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/rahul-saravanan-391821257" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rahul Saravanan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

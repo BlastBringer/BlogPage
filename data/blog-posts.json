@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Understanding Large Language Models",
+            "date": "March 15, 2024",
+            "category": "AI & ML",
+            "excerpt": "Deep dive into the architecture and applications of modern LLMs.",
+            "content": "content/understanding-llms.md",
+            "tags": ["LLM", "AI", "NLP"]
+        },
+        {
+            "id": 2,
+            "title": "RL in Real-World Applications",
+            "date": "March 10, 2024",
+            "category": "Reinforcement Learning",
+            "excerpt": "Exploring practical applications of reinforcement learning.",
+            "content": "content/rl-applications.md",
+            "tags": ["RL", "AI", "Machine Learning"]
+        }
+    ]
+} 
